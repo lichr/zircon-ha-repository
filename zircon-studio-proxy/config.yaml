@@ -1,7 +1,7 @@
 name: Zircon Studio Proxy
-slug: zircon_studio_proxy
-description: "A proxy for accessing zircon studio web application"
+description: "A proxy for Zircon Studio web application"
 version: "1.0.0"
+slug: zircon_proxy
 panel_title: Zircon Studio
 panel_icon: mdi:floor-plan
 init: false
@@ -11,4 +11,20 @@ ports:
   3100/tcp: 3100
 arch:
   - amd64
+options:
+  baseUrl: https://zircon.app
+  email: null
+  password: null
+  group: null
+  project: null
+  key: null
+  cert: null
+schema:
+  baseUrl: url
+  email: email
+  password: password
+  group: "match(^[a-zA-Z0-9]+$)"
+  project: "match(^[a-zA-Z0-9]+$)"
+  key: "str?"
+  cert: "str?"
 image: lichr/zircon-studio-ha-proxy-{arch}
