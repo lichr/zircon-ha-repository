@@ -1,0 +1,14 @@
+name: Zircon Studio Proxy
+slug: zircon_studio_proxy
+description: "A proxy for accessing zircon studio web application"
+version: "1.0.0"
+panel_title: Zircon Studio
+panel_icon: mdi:floor-plan
+init: false
+ingress: true
+ingress_port: 3100
+ports:
+  3100/tcp: 3100
+arch:
+  - amd64
+image: lichr/zircon-studio-ha-proxy-{arch}
