@@ -1,8 +1,8 @@
-name: Zircon Studio Proxy
-description: "A proxy for Zircon Studio web application"
-version: "1.0.0"
-slug: zircon_proxy
-panel_title: Zircon Studio
+name: Zircon3D Proxy
+description: "This add-on allows accessing Zircon3D system from Home Assistant"
+version: "1.0.1"
+slug: zircon3d_proxy
+panel_title: Zircon3D
 panel_icon: mdi:floor-plan
 init: false
 ingress: true
@@ -12,7 +12,7 @@ ports:
 arch:
   - amd64
 options:
-  baseUrl: https://zircon.app
+  baseUrl: https://zircon3d.com
   email: null
   password: null
   group: null
@@ -27,4 +27,4 @@ schema:
   project: "match(^[a-zA-Z0-9]+$)"
   key: "str?"
   cert: "str?"
-image: lichr/zircon-studio-ha-proxy-{arch}
+image: lichr/zircon-ha-proxy-{arch}
