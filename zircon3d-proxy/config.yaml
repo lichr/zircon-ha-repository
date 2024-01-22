@@ -12,19 +12,13 @@ ports:
 arch:
   - amd64
 options:
-  baseUrl: https://zircon3d.com
   email: null
   password: null
   group: null
   project: null
-  key: null
-  cert: null
 schema:
-  baseUrl: url
   email: email
   password: password
   group: "match(^[a-zA-Z0-9]+$)"
   project: "match(^[a-zA-Z0-9]+$)"
-  key: "str?"
-  cert: "str?"
 image: lichr/zircon-ha-proxy-{arch}
