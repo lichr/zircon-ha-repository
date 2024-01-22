@@ -5,6 +5,7 @@ slug: zircon3d_proxy
 panel_title: Zircon3D
 panel_icon: mdi:floor-plan
 init: false
+homeassistant_api: true,
 ingress: true
 ingress_port: 3100
 ports:
