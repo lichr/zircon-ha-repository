@@ -1,25 +1,22 @@
 name: Zircon3D Proxy
 description: "This add-on allows accessing Zircon3D system from Home Assistant"
 version: "1.0.8"
-slug: zircon3d_proxy
+slug: zircon3d_ha_proxy
 panel_title: Zircon3D
 panel_icon: mdi:floor-plan
 init: false
-homeassistant_api: true
 ingress: true
 ingress_port: 11200
+homeassistant_api: true
 ports:
   11200/tcp: 11200
 arch:
   - amd64
 options:
-  email: null
-  password: null
+  zircon_access_token: null
   group: null
   project: null
 schema:
-  email: email
-  password: password
+  zircon_access_token: str
   group: "match(^[a-zA-Z0-9]+$)"
   project: "match(^[a-zA-Z0-9]+$)"
-image: lichr/zircon-ha-proxy-{arch}
