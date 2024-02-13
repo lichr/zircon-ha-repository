@@ -1,6 +1,6 @@
 name: Zircon3D Proxy
 description: "This add-on allows accessing Zircon3D system from Home Assistant"
-version: "1.0.8"
+version: "1.0.9"
 slug: zircon3d_ha_proxy
 panel_title: Zircon3D
 panel_icon: mdi:floor-plan
