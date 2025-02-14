@@ -1,21 +1,32 @@
-MIT License
+Zircon3D Home Assistant Addon License
 
 Copyright (c) 2025 Lichr Inc.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. License Grant
+Lichr Inc. grants you a non-exclusive, non-transferable, and revocable license to install and use the Zircon3D Home Assistant Addon ("Software") solely for personal or internal business purposes in conjunction with your Home Assistant setup. No ownership rights are transferred under this license.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Restrictions
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You may not distribute, modify, reverse engineer, decompile, or disassemble the Software.
+
+You may not sublicense, sell, rent, lease, or otherwise commercially exploit the Software.
+
+You may not remove or alter any proprietary notices contained in the Software.
+
+3. Ownership
+The Software remains the exclusive property of Lichr Inc. and is licensed, not sold. All rights not explicitly granted in this license are reserved by Lichr Inc.
+
+4. No Warranty
+The Software is provided "as is" without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+5. Limitation of Liability
+In no event shall Lichr Inc. be liable for any damages arising from the use or inability to use the Software, including but not limited to direct, indirect, incidental, special, or consequential damages.
+
+6. Termination
+This license is effective until terminated. Lichr Inc. may terminate it at any time if you fail to comply with its terms. Upon termination, you must cease all use and delete all copies of the Software.
+
+7. Governing Law
+This license shall be governed by and construed in accordance with the laws of Canada, without regard to its conflict of law principles.
+
+8. Contact
+For inquiries regarding this license, contact: contact@lichr.com
