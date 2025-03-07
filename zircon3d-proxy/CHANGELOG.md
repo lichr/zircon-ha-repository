@@ -1,5 +1,10 @@
 # Zircon3D Changelog
 
+## [1.1.1] - 2025-03-7
+
+### Bug Fixes
+- **Heatmap**: Heatmaps created before version 1.1.0 don't show.
+
 ## [1.1.0] - 2025-03-06
 
 ### New Features
