@@ -1,5 +1,10 @@
 # Zircon3D Changelog
 
+## [1.1.3] - 2025-03-10
+
+### Bug Fixes
+- **HA Integration**: Fixed in some slow environment, ui may prematurely send request before web-socket securely connected.
+
 ## [1.1.2] - 2025-03-10
 
 ### Bug Fixes
