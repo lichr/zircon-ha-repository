@@ -1,5 +1,10 @@
 # Zircon3D Changelog
 
+## [1.2.2] - 2025-07-02
+
+### Hot Fixes
+- **Heatmaps**: Heatmaps don't refresh after value changes
+
 
 ## [1.2] - 2025-06-02
 
