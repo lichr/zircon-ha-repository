@@ -1,5 +1,14 @@
 # Zircon3D Changelog
 
+## [2.0.0] - 2025-09-26
+
+* **User-defined layers** *(Pro users only)*: Create custom heatmap layers using any metrics you choose.
+* **Refactored Heatmap settings**: Heatmap settings are now easier to access and configure.
+* **History Replay (Heatmap & Dashboard)**: Replay historical data at a chosen scope and playback speed.
+* **View Profiles**: Save a viewer’s state and share it directly via URL.
+* **Redesigned HA Add-on UI**: A more streamlined and intuitive workflow.
+* **Resizable Objects**: Resize furniture, appliances, doors, and other objects to better fit your layout.
+
 ## [1.2.2] - 2025-07-02
 
 ### Hot Fixes
