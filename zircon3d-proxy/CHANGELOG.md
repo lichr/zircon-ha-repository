@@ -1,6 +1,6 @@
 # Zircon3D Changelog
 
-## [2.0.2] - 2025-10-28
+## [2.0.3] - 2025-10-28
 
 ### Bug Fixes
 - **Add New Floor**: Incorrect default setting of walls.
