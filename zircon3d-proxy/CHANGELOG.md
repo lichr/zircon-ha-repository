@@ -1,5 +1,11 @@
 # Zircon3D Changelog
 
+## [2.0.2] - 2025-10-28
+
+### Bug Fixes
+- **Add New Floor**: Incorrect default setting of walls.
+
+
 ## [2.0.0] - 2025-09-26
 
 * **User-defined layers** *(Pro users only)*: Create custom heatmap layers using any metrics you choose.
