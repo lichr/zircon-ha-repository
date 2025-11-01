@@ -1,5 +1,11 @@
 # Zircon3D Changelog
 
+
+## [2.0.4] - 2025-11-01
+
+### Bug Fixes
+- fix a regression that breaks selecting **unit-system**.
+
 ## [2.0.3] - 2025-10-28
 
 ### Bug Fixes

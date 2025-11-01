@@ -1,6 +1,6 @@
 name: Zircon3D Proxy
 description: "This add-on allows accessing Zircon3D system from Home Assistant"
-version: "2.0.3"
+version: "2.0.4"
 slug: zircon3d_ha_proxy
 image: lichr/zircon3d-ha-proxy-{arch}
 panel_title: Zircon3D
