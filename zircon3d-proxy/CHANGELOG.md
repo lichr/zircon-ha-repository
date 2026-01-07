@@ -1,5 +1,10 @@
 # Zircon3D Changelog
 
+## [2.0.5] - 2026-01-07
+
+### Bug Fixes
+- fix a bug causes unit conversion crashes in some cases
+
 
 ## [2.0.4] - 2025-11-01
 
