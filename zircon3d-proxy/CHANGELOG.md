@@ -1,5 +1,10 @@
 # Zircon3D Changelog
 
+## [2.0.6] - 2026-01-11
+- Improved WebSocket stability for unreliable or high-latency network environments
+- Added a built-in log viewer to both the Designer and Viewer for easier debugging
+
+
 ## [2.0.5] - 2026-01-07
 
 ### Bug Fixes
