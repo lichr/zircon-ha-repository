@@ -1,5 +1,10 @@
 # Zircon3D Changelog
 
+## [2.0.7] - 2026-01-13
+### Bug Fixes
+- Fix bug: device name didn't update after renaming in HA
+
+
 ## [2.0.6] - 2026-01-11
 - Improved WebSocket stability for unreliable or high-latency network environments
 - Added a built-in log viewer to both the Designer and Viewer for easier debugging
