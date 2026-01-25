@@ -1,5 +1,9 @@
 # Zircon3D Changelog
 
+## [2.0.8] - 2026-01-25
+### Bug Fixes
+- Fix a bug could cause a infinite loop
+
 ## [2.0.7] - 2026-01-13
 ### Bug Fixes
 - Fix bug: device name didn't update after renaming in HA
