@@ -1,5 +1,27 @@
 # Zircon3D Changelog
 
+## [2.1.2] - 2026-03-13
+
+### New Features
+- Added `on-screen camera controller`
+- Added new view settings to control display of `floating cards`
+  - `detailed` mode: show multiple property values in floating cards
+  - `compact` mode: show only property value that related to current layer / heatmap selection
+  - `hidden`: hide all floating cards
+  - show / hide `action-cards`
+  - enable / disable floating card `occlusion`. When enabled, floating cards are hidden if behind any floor.
+- Improved sensor icon match: `temperature` and `humidity` can be correctly matched in systems using a language other than English
+- Added `preview` button besides `edit-modes` selector.
+- Auto alignment: when editing / re-positioning areas by `dragging` helper lines, press `shift` key will temporarily disable auto-alignment (snapping)
+
+### Other Changes
+- `drag-n-drop` areas / objects now shows a placeholder instead of updating the floor plan in realtime, this greatly reduced lag due to performance issue with larger project.
+- `areas` and `objects` can be selected regardless current `edit-mode` (edit-buildings / edit-objects).
+- Allow editing project name in project panel in `proxy-ui`
+- Add caption to `floor-tile`
+
+
+
 ## [2.0.8] - 2026-01-25
 ### Bug Fixes
 - Fix a bug could cause a infinite loop
