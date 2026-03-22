@@ -1,5 +1,12 @@
 # Zircon3D Changelog
 
+## [2.1.3] - 2026-03-22
+
+### Bug Fixes
+- Hide add-ground button which should not show in current release
+- Fix the issue that cause usage quota not correctly calculated
+
+
 ## [2.1.2] - 2026-03-13
 
 ### New Features
