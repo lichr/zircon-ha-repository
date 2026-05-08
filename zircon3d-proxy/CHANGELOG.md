@@ -1,5 +1,18 @@
 # Zircon3D Changelog
 
+## [2.2.0] - 2026-05-08
+
+### New Features
+- **Custom Models**: Upload `.glb` models and use them directly in your projects.
+- **Simple Cube Object**: Add cube objects with editable height, width, depth, color, and material settings.
+- **Expanded Control Cards**: Added more Home Assistant control cards, including enhanced light controls with color and percentage support, cover controls for garage doors, windows, and shades, climate controls for air conditioners and heat pumps, lock controls for door locks, and fan controls.
+- **Room Box View Colors**: Set custom colors for rooms in the room-level Box View. This also prepares Box View for room sensor data mapping in the next release.
+- **Multi-Select Editing**: Select multiple objects or rooms by holding `Ctrl`, then move or delete them together.
+
+### Improvements
+- Fixed multiple bugs and improved overall performance.
+
+
 ## [2.1.3] - 2026-03-22
 
 ### Bug Fixes
