@@ -1,5 +1,15 @@
 # Zircon3D Changelog
 
+## [2.2.1] - 2026-05-15
+
+### New Features
+- Add **Project Tools**: allow export / import space-plan data
+
+### Bug Fixes
+- Fix switching edit-mode doesn't reset box-view correctly
+- Fix view-settings/floating-cards/sensor-card-display behavior
+
+
 ## [2.2.0] - 2026-05-08
 
 ### New Features
