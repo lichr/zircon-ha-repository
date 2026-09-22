@@ -1,5 +1,26 @@
 # Zircon3D Changelog
 
+## [3.0.0] - 2026-09-22
+
+### New features
+
+- Added full 3D routing creation, editing, snapping, floor bridging, and visualization.
+- Added surface-based placement for walls, ceilings, floors, grids, and ground areas.
+- Introduced the Asset Registry with model categories, favorites, annotations, ports, versioning, and publishing workflows.
+- Added room and floor heatmaps, room-box views, line charts, gauge thresholds, legends, and view-profile tiles.
+- Improved the mobile experience with enhanced touch controls and reliable drag interactions on Android.
+- Added multi-select, copy/paste, copy-drag, camera presets, and contextual help.
+- Added built-in editors and generators for devices, stairways, and solar PV arrays.
+- Improved visual quality with ambient occlusion, soft shadows, floor reflections, and wall edges.
+- Added proxy first-run recovery for access tokens and client certificates.
+
+### Bug fixes
+
+- Fixed environment rendering and automatic model scaling issues.
+- Improved floor heatmap clipping and cross-floor visualization.
+- Fixed various editor layout, alignment, icon, and label issues.
+- Improved proxy initialization and connection error handling.
+
 ## [2.2.1] - 2026-05-15
 
 ### New Features
