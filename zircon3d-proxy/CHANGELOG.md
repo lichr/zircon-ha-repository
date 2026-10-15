@@ -1,5 +1,13 @@
 # Zircon3D Changelog
 
+
+## [3.0.1] - 2026-10-15
+
+### Bug fixes
+
+- Fixed a v3.0 regression where custom models could disappear after reloading a project. Restored compatibility with existing model data across cloud and Home Assistant, and corrected the format used for new saves.
+
+
 ## [3.0.0] - 2026-09-22
 
 ### New features
