@@ -1,6 +1,32 @@
 # Zircon3D Changelog
 
 
+## [3.1.1] - 2026-11-06
+
+### New features
+
+- **Generate Floor from Drawing (Beta)**: Turn a floor-plan image into an editable 3D floor with recognized rooms, doors, windows, furniture, and fixtures. Review the results and a 3D preview before adding the floor to a new building or above or below an existing floor.
+- **AI through Home Assistant**: Added AI floor generation through the proxy using the configured Zircon account. Generation requires an internet connection, a cloud-synchronized project, and available AI credits. Monthly credit usage is shown in Designer.
+- **Numeric dimensions**: Click room-side measurements to resize supported room shapes, or wall-opening measurements to set an exact width. Drag an opening's dimension line to move it along its wall while preserving its width.
+- **Outdoor Areas**: Added an Area Type selector for defining outdoor object-placement regions without generating walls or floor surfaces.
+- **Model galleries**: Switch between List and Gallery views to browse all models within a top-level category in one grid.
+
+### Improvements
+
+- AI floor generation can use dimensions supplied in drawing descriptions or estimate scale from recognized objects when explicit dimensions are unavailable. Estimated scales are flagged for review, and recognized furniture and fixtures are matched to suitable library models.
+- Improved room edge and corner dragging, including snapping, handling of adjacent straight edges, and feedback when a requested edit cannot be applied.
+- Improved room outlines, measurements, and wall-opening handles. Added dashed lower-floor outlines with a visibility setting, plus automatic floor transparency when entering room editing.
+- Added a collapsible Designer welcome panel with shortcuts for creating buildings and floors, generating floors from drawings, and opening guides, tutorials, and community resources.
+
+### Bug fixes
+
+- Fixed drawing workflows on local HTTP connections, including Home Assistant and LAN deployments, and handled unavailable clipboard access without interrupting recognition or import.
+- Fixed room heatmap toggles not immediately refreshing the floor and containing-room heatmaps.
+- Fixed copied floors using the wrong neighboring floor for reference outlines and cross-floor snapping.
+- Fixed unreliable selection and pointer targeting for overlapping areas.
+
+
+
 ## [3.0.1] - 2026-10-15
 
 ### Bug fixes
