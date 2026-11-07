@@ -25,6 +25,9 @@ Key Features:
 
 Please follow [This Instruction](https://zircon3d.com/docs/1.getting-started/2.install-zircon-ha-proxy) to set up and configure the addon.
 
+[![Add to Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Flichr%2Fzircon-ha-repository)
+
+
 ## More information
 
 - Learn more from [Zircon Documents](https://zircon3d.com/docs)
